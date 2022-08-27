@@ -1,0 +1,51 @@
+ar:
+  layouts:
+    application:
+      title: "عنوان المشروع"
+      home: "الرئيسية"
+      questions: "الاسئلة"
+      news: "الاخبار"
+      contact: "للتواصل"
+  store:
+    index:
+       title_html: "عنوان الموقع"
+    product:
+        add_html: "اضافة للسلة"
+  carts:
+    cart:
+      title: "العنوان"
+      empty: "فارغ"
+      checkout: "شراء"
+  number:
+    currency:
+      format:
+        unit: "$"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format: "%u%n"
+  orders:
+    new:
+      legend:  "Please Enter Your Details"
+    form:
+      name: "Name"
+      address_html: "Address"
+      email: "E-mail"
+      pay_type: "Pay with"
+      pay_prompt_html: "Select a payment method"
+      submit: "place Order"
+      pay_types:
+        "check": "check"
+        "credit card": "credit card"
+        "purchase order": "purchase order"
+      check:
+        routing_number: "Routing #"
+        account_number: "Account #"
+      cc:
+        cc_number: "cc #"
+        expiration_date: "Expiry"
+      po:
+        po_number: "PO #"
+
+
+
